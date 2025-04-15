@@ -1,0 +1,9 @@
+# No external dependencies required for base functionality
+# Standard library dependencies used:
+# - os
+# - shutil
+# - argparse
+# - logging
+# - datetime
+# - time
+# - pathlib
