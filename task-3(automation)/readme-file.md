@@ -14,8 +14,8 @@ A Python automation script that organizes files in a directory by sorting them i
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/file-organizer.git
-cd file-organizer
+git clone farazahmed2048/codealpha_task.git
+cd task-3(automation)
 ```
 
 2. Install the required dependencies:
