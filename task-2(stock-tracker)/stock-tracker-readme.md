@@ -4,9 +4,9 @@ A comprehensive stock portfolio tracking application that allows users to manage
 
 ## Features
 
-- **Portfolio Management**: Add and remove stocks from your personal portfolio
+- **Portfolio Management**: Add and remove stocks from personal portfolio
 - **Real-time Data**: Get current stock prices from Alpha Vantage API
-- **Performance Tracking**: View gain/loss for individual stocks and your overall portfolio
+- **Performance Tracking**: View gain/loss for individual stocks and overall portfolio
 - **Data Visualization**: Visual representation of portfolio composition and stock values
 - **Historical Data**: View price history charts for individual stocks
 - **Automatic Updates**: Portfolio data refreshes automatically every hour
@@ -52,17 +52,17 @@ self.api_key = " ZKHIYU9Z339WCXAG"
 python stock_portfolio_tracker.py
 ```
 
-2. Add stocks to your portfolio by clicking the "Add Stock" button
+2. Add stocks to portfolio by clicking the "Add Stock" button
    - Enter the stock symbol (e.g., AAPL for Apple Inc.)
    - Enter the number of shares you own
-   - Enter your purchase price per share
+   - Enter purchase price per share
 
-3. Monitor your portfolio:
+3. Monitor portfolio:
    - View current values, gain/loss calculations
    - Visualize portfolio composition
    - Track performance over time
 
-4. Remove stocks from your portfolio when necessary
+4. Remove stocks from portfolio when necessary
 
 5. Click "View Details" to see historical price charts for specific stocks
 
