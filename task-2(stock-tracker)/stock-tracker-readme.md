@@ -14,10 +14,7 @@ A comprehensive stock portfolio tracking application that allows users to manage
 
 ## Screenshots
 
-![Main Interface](screenshots/main_interface.png)
-![Stock Details](screenshots/stock_details.png)
 
-*(Note: Add actual screenshots of your application when available)*
 
 ## Requirements
 
@@ -32,8 +29,8 @@ A comprehensive stock portfolio tracking application that allows users to manage
 
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/stock-portfolio-tracker.git
-cd stock-portfolio-tracker
+git https://github.com/farazahmed2048/codealpha_task.git
+cd task-2(stock-tracker)
 ```
 
 2. Install the required dependencies:
@@ -45,7 +42,7 @@ pip install -r requirements.txt
 
 4. Replace the placeholder API key in the code:
 ```python
-self.api_key = "YOUR_ALPHA_VANTAGE_API_KEY"
+self.api_key = " ZKHIYU9Z339WCXAG"
 ```
 
 ## Usage
