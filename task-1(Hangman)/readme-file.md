@@ -12,17 +12,13 @@ This Hangman game was developed as part of a machine learning internship project
 - Easy-to-use letter selection buttons
 - Game state tracking (attempts remaining, guessed letters)
 
-## Screenshots
-
-![Hangman Game](screenshots/hangman_game.png)
-*(Note: Add a screenshot of your game here when available)*
 
 ## Installation
 
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/hangman-game.git
-cd hangman-game
+git clone https://github.com/farazahmed2048/codealpha_task.git
+cd task-1(Hangman)
 ```
 
 2. Install the required dependencies:
