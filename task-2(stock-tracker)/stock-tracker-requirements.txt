@@ -1,0 +1,12 @@
+# Python version
+python>=3.6
+
+# Core packages
+requests>=2.25.1
+matplotlib>=3.4.2
+pandas>=1.3.0
+yfinance
+datetime
+
+# For the GUI (typically comes with Python, but listing for clarity)
+# tkinter is included in Python standard library
