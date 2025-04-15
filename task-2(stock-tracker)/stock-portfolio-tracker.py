@@ -19,7 +19,7 @@ class StockPortfolioTracker:
         
         # API key for Alpha Vantage
         # Note: In a real app, you would store this more securely
-        self.api_key = "YOUR_ALPHA_VANTAGE_API_KEY"
+        self.api_key = " ZKHIYU9Z339WCXAG"
         
         # Portfolio data
         self.portfolio = []
@@ -126,7 +126,7 @@ class StockPortfolioTracker:
         # Check if stock already exists in portfolio
         for stock in self.portfolio:
             if stock['symbol'] == symbol:
-                messagebox.showerror("Error", f"Stock {symbol} already exists in your portfolio!")
+                messagebox.showerror("Error", f"Stock {symbol} already exists in portfolio!")
                 return
         
         # Validate symbol using API
@@ -161,7 +161,7 @@ class StockPortfolioTracker:
             self.save_portfolio()
             self.update_portfolio_display()
             
-            messagebox.showinfo("Success", f"Added {shares} shares of {symbol} to your portfolio!")
+            messagebox.showinfo("Success", f"Added {shares} shares of {symbol} to portfolio!")
             
         except Exception as e:
             messagebox.showerror("Error", f"Failed to add stock: {str(e)}")
@@ -178,7 +178,7 @@ class StockPortfolioTracker:
         symbol = item_values[0]
         
         # Confirm removal
-        confirm = messagebox.askyesno("Confirm Removal", f"Are you sure you want to remove {symbol} from your portfolio?")
+        confirm = messagebox.askyesno("Confirm Removal", f"Are you sure you want to remove {symbol} from portfolio?")
         if not confirm:
             return
         
@@ -190,7 +190,7 @@ class StockPortfolioTracker:
         
         self.save_portfolio()
         self.update_portfolio_display()
-        messagebox.showinfo("Success", f"Removed {symbol} from your portfolio!")
+        messagebox.showinfo("Success", f"Removed {symbol} from portfolio!")
     
     def view_stock_details(self):
         # Get selected item
@@ -312,7 +312,7 @@ class StockPortfolioTracker:
     def refresh_data(self):
         """Refresh stock data for all portfolio items"""
         if not self.portfolio:
-            messagebox.showinfo("Info", "Your portfolio is empty!")
+            messagebox.showinfo("Info", " portfolio is empty!")
             return
         
         try:
