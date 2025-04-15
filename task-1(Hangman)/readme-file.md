@@ -4,7 +4,6 @@ A Python implementation of the classic Hangman game with a graphical user interf
 
 ## Project Overview
 
-This Hangman game was developed as part of a machine learning internship project. The game features:
 
 - A clean and intuitive graphical interface
 - A collection of ML/CS-themed words
